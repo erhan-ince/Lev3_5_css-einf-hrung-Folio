@@ -71,7 +71,7 @@ img {
   font-family: athene;
   display: inline-block;
   background: #f4c4c4;
-  height: 300vh;
+  height: 150vh;
   width: 100vw;
   color: black;
   margin: 0;
@@ -84,6 +84,7 @@ img {
 #release h1 {
   font-size: 7em;
   margin: 0;
+  /* margin-left: 1%; */
 }
 .pfirstofall {
   font-family: "Open Sans", sans-serif;
@@ -96,7 +97,43 @@ img {
   line-height: 2;
 }
 table {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.5em;
+  width: 50%;
   margin-top: 10%;
-  margin-left: 30%;
+  margin-left: 38%;
   line-height: 6;
+}
+.tableheader {
+  height: 1vh;
+  line-height: 1;
+}
+th {
+  font-size: 2em;
+  text-align: right;
+  /* margin-bottom: 0; */
+  border-bottom: 1px solid #282b29;
+}
+td {
+  font-size: 2em;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #282b29;
+}
+
+.tdfirst {
+  width: 5%;
+}
+.tdsecond {
+  width: 60%;
+}
+tr td:last-of-type {
+  font-size: 1em;
+  width: 5%;
+  line-height: 1;
+  text-align: right;
+}
+.worktogether {
+  width: 5vw;
+  margin-left: 80%;
 }
