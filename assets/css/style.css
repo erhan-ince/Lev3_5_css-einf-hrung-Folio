@@ -1,58 +1,65 @@
-/* Assets:
+/* /* Assets:
 
 
 
 Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883
 
 Schriften: Open Sans, Athene
-um Schriften lokal einzubinden schaue hier!
-
-Im Classroom befinden sich zip-Dateien mit den Bildern und der Schrift Athene!
-
-
-SC20"
-TEMPORARY FOLIO
-TEMPORARY FOLIO  
-©
-DESIGNER & DEVELOPER
-
-.01
-RELEA
-SE
-FIRST OF ALL, IT IS AMAZING HAVING YOU HERE, WELCOME! I'M A PERSON WHO'S COMPLETELY IN LOVE WITH DESIGN, I AM PASSIONATE ABOUT TECHNOLOGY AND INTERACTIVITY, THE TWO FIELDS WHICH I'D LOVE TO STAY MORE INVOLVED IN AND KEEP ABOUT. CONTINUE TO GROW AND IMPROVE EVERY DAY!
-PRINCIPLES & VALUES
-01.	
-Integrity.
-Always working with accuracy and transparency.
-
-02.
-Understanding.
-Well-made website require effort and comprehension.
-03.
-Performance.
-Focus is the key, every minute is important.
-
-.02
-WOR
-KS
-EVERY WEBSITE IS MEANINGFUL AND REQUIRE A LOT OF EFFORT TO REACH THE GOALS, REAGARDLESS OF WHICH GOALS YOU ARE LOOKING TO MEET, I CAN WORK WITH YOU TO REACH THEM. BELOW YOU CAN SEE SOME OF THE PROJECTS I'VE WORKED IN AND SEE MY SKILLS SET. I HOPE YOU ENJOY THEM:
-RODRIGO
-MARCONATTO
-KÄTHE
-KOLLWITZ
-VICTOR FOLIO
-2019"
-BORED OF
-AUTHORITY
-
-.03
-CONTA
-CT
-NOW THAT YOU ALREADY KNOW ME,
-IT IS TIME TO START TO BUILD
-SOMETHING AMAZING TOGETHER.
-Email
-Dribbble
-Behance
-Github
- */
+um Schriften lokal einzubinden schaue hier! */
+body {
+  margin: 0;
+}
+@font-face {
+  font-family: athene;
+  src: url(../fonts/Athene.otf);
+}
+nav {
+  background: #efe8d7;
+  position: fixed;
+  border-bottom: 1px solid black;
+  width: 100vw;
+}
+nav h5:first-of-type {
+  position: fixed;
+  top: 5px;
+  left: 100px;
+}
+nav h5:last-of-type {
+  position: fixed;
+  top: 5px;
+  right: 100px;
+}
+#tmpfolio {
+  /* height: 100vh; */
+  background: #efe8d7;
+  text-align: center;
+  color: #002a5a;
+  font-family: athene;
+}
+#tmpfolio .temporary {
+  font-size: 5em;
+  text-align: center;
+  padding-top: 3%;
+  margin-bottom: 0;
+}
+.lineone {
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin-left: 25%;
+}
+#tmpfolio .folio {
+  font-size: 5em;
+  text-align: center;
+  margin: 0;
+}
+.linetwo {
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin-left: 25%;
+}
+span {
+  font-size: 100px;
+}
+img {
+  margin-top: 5%;
+}
