@@ -6,6 +6,7 @@ Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883
 
 Schriften: Open Sans, Athene
 um Schriften lokal einzubinden schaue hier! */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
 body {
   margin: 0;
   background: #efe8d7;
@@ -67,6 +68,7 @@ img {
   margin-bottom: 10%;
 }
 #release {
+  font-family: athene;
   display: inline-block;
   background: #f4c4c4;
   height: 300vh;
@@ -75,4 +77,26 @@ img {
   margin: 0;
 }
 #release p {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+#release h1 {
+  font-size: 7em;
+  margin: 0;
+}
+.pfirstofall {
+  font-family: "Open Sans", sans-serif;
+  color: #282b29;
+  font-size: 1em;
+  text-align: left;
+  width: 550px;
+  /* margin-left: 80%; */
+  padding-left: 40%;
+  line-height: 2;
+}
+table {
+  margin-top: 10%;
+  margin-left: 30%;
+  line-height: 6;
 }
