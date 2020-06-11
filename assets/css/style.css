@@ -116,7 +116,7 @@ th {
 }
 td {
   font-size: 2em;
-  padding: 8px;
+  padding: 5px;
   text-align: left;
   border-bottom: 1px solid #282b29;
 }
@@ -127,10 +127,12 @@ td {
 .tdsecond {
   width: 60%;
 }
-tr td:last-of-type {
+tr td:nth-child(odd) {
   font-size: 1em;
   width: 5%;
   line-height: 1;
+}
+tr td:last-of-type {
   text-align: right;
 }
 .worktogether {
