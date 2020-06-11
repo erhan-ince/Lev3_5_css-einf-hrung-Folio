@@ -2,7 +2,7 @@
 
 
 
-Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, #7d2222, #DEB873, #D2D2D2, #1d8883
+Farben: #002a5a, #efe8d7, #F4C4C4, #282b29, , #DEB873,#7d2222 #D2D2D2, #1d8883
 
 Schriften: Open Sans, Athene
 um Schriften lokal einzubinden schaue hier! */
@@ -22,56 +22,63 @@ nav {
   width: 100vw;
 }
 nav h5:first-of-type {
+  color: #282b29;
+  font-weight: lighter;
   position: fixed;
   top: 5px;
   left: 100px;
 }
 nav h5:last-of-type {
+  color: #282b29;
+  font-weight: lighter;
   position: fixed;
   top: 5px;
   right: 100px;
 }
 #tmpfolio {
-  height: 120vh;
+  height: 150vh;
   text-align: center;
   color: #002a5a;
   font-family: athene;
 }
 #tmpfolio .temporary {
   font-size: 5em;
+  font-weight: lighter;
   text-align: center;
   padding-top: 3%;
   margin-bottom: 0;
 }
 .lineone {
   border-bottom: 1px solid black;
-  width: 50%;
-  margin-left: 25%;
+  width: 60%;
+  margin-left: 20%;
 }
 #tmpfolio .folio {
   font-size: 5em;
+  font-weight: lighter;
   text-align: center;
   margin: 0;
 }
 .linetwo {
   border-bottom: 1px solid black;
-  width: 50%;
-  margin-left: 25%;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 0;
 }
 span {
   font-size: 100px;
-}
-img {
-  margin-top: 5%;
+  font-weight: lighter;
 }
 #tmpfolio h3 {
+  text-align: center;
+  margin-right: 10%;
   margin-bottom: 10%;
 }
 #release {
   font-family: athene;
   display: inline-block;
   background: #f4c4c4;
-  height: 150vh;
+  height: 170vh;
   width: 100vw;
   color: black;
   margin: 0;
@@ -136,6 +143,67 @@ tr td:last-of-type {
   text-align: right;
 }
 .worktogether {
-  width: 5vw;
+  width: 8vw;
   margin-left: 80%;
+  padding-top: 5%;
+}
+#works {
+  font-family: athene;
+  display: inline-block;
+  background: #deb873;
+  height: 350vh;
+  width: 100vw;
+  color: #7d2222;
+  margin-top: 0;
+  padding-top: 10%;
+}
+#works p:first-of-type {
+  text-align: right;
+  margin-right: 8%;
+}
+#works p:last-of-type {
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 500px;
+}
+#works h1 {
+  text-align: right;
+  font-size: 7em;
+  margin: 0;
+}
+div:nth-child(odd) {
+  font-size: 3em;
+  text-align: left;
+  margin-left: 5%;
+  margin-bottom: 15%;
+}
+div:nth-child(even) {
+  font-size: 3em;
+  text-align: right;
+  margin-right: 5%;
+  margin-bottom: 15%;
+}
+.imgrodrigo {
+  background: url(../img/bg-marconatto-1.jpg) right/contain no-repeat;
+  height: 13%;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+.imgkaethe {
+  background: url(../img/kathe_cover-1.jpg) left/contain no-repeat;
+  height: 13%;
+  margin-left: 5%;
+}
+.imgvictor {
+  background: url(../img/bg-nicole-1.jpg) right/contain no-repeat;
+  height: 13%;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+.imgbored {
+  background: url(../img/boa_cover-1.jpg) left/contain no-repeat;
+  height: 13%;
+  margin-left: 5%;
 }
