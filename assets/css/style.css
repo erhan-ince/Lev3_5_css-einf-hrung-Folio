@@ -12,6 +12,7 @@ nav {
   position: fixed;
   border-bottom: 1px solid black;
   width: 100vw;
+  height: 10vh;
 }
 nav h5:first-of-type {
   color: #282b29;
@@ -32,7 +33,6 @@ nav h5:last-of-type {
   text-align: center;
   color: #002a5a;
   font-family: athene;
-  margin: 0;
 }
 #tmpfolio .temporary {
   font-size: 5em;
@@ -40,7 +40,8 @@ nav h5:last-of-type {
   border-bottom: 1px solid;
   padding-top: 0.5em;
   display: table;
-  margin: 1em auto;
+  margin: 0 auto;
+  padding-top: 1.5em;
 }
 #tmpfolio .folio {
   font-size: 5em;
