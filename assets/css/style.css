@@ -64,11 +64,13 @@ nav h5:last-of-type {
   text-align: center;
 }
 #tmpfolio div img {
-  margin-top: 1em;
+  margin-top: 0.5em;
+  /* height: 30%;
+  width: auto; */
   /* margin-left: 40%; */
 }
 #tmpfolio div h4 {
-  font-size: 0.5em;
+  font-size: 0.25em;
   font-weight: bolder;
   text-align: center;
   padding-right: 2em;
@@ -93,7 +95,7 @@ nav h5:last-of-type {
   margin-left: 5%;
 }
 #release h1 {
-  font-size: 7em;
+  font-size: 8em;
   margin: 0;
   /* margin-left: 1%; */
 }
@@ -157,7 +159,7 @@ tr td:last-of-type {
   font-family: athene;
   display: inline-block;
   background: #deb873;
-  height: 550vh;
+  height: 600vh;
   width: 100vw;
   color: #7d2222;
   margin-top: 0;
@@ -178,41 +180,41 @@ tr td:last-of-type {
 }
 #works h1 {
   text-align: right;
-  font-size: 7em;
+  font-size: 8em;
   margin: 0;
 }
 div:nth-child(odd) {
-  font-size: 3em;
+  font-size: 6em;
   text-align: left;
   margin-left: 5%;
   margin-bottom: 15%;
 }
 div:nth-child(even) {
-  font-size: 3em;
+  font-size: 6em;
   text-align: right;
   margin-right: 5%;
   margin-bottom: 15%;
 }
 .imgrodrigo {
   background: url(../img/bg-marconatto-1.jpg) right/contain no-repeat;
-  height: 15%;
+  height: 14%;
   margin-right: 5%;
   margin-top: 10%;
 }
 .imgkaethe {
   background: url(../img/kathe_cover-1.jpg) left/contain no-repeat;
-  height: 13%;
+  height: 14%;
   margin-left: 5%;
 }
 .imgvictor {
   background: url(../img/bg-nicole-1.jpg) right/contain no-repeat;
-  height: 13%;
+  height: 14%;
   margin-right: 5%;
   margin-top: 10%;
 }
 .imgbored {
   background: url(../img/boa_cover-1.jpg) left/contain no-repeat;
-  height: 13%;
+  height: 15%;
   margin-left: 5%;
 }
 #conta {
@@ -221,23 +223,19 @@ div:nth-child(even) {
   display: inline-block;
   background: #d2d2d2;
   color: #1d8883;
-  height: 150vh;
+  height: 125vh;
   width: 100vw;
-}
-#conta div {
-  margin-left: 20%;
 }
 #conta p {
   font-family: "Open Sans", sans-serif;
-  font-size: 0.5em;
-  line-height: 2em;
-  width: 18em;
-  margin-top: 5%;
-  margin-left: 5%;
+  font-size: 2em;
+  line-height: 1.5em;
+  width: 17em;
+  margin-left: 8em;
   text-align: left;
 }
 #conta h1 {
-  font-size: 7em;
+  font-size: 8em;
   margin: 0;
 }
 #conta ul {
@@ -248,6 +246,7 @@ div:nth-child(even) {
   display: inline-block;
   width: 100px;
   list-style: none;
+  margin-top: 10em;
   margin-right: 5em;
   line-height: 2em;
 }
