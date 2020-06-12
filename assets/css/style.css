@@ -157,7 +157,7 @@ tr td:last-of-type {
   font-family: athene;
   display: inline-block;
   background: #deb873;
-  height: 500vh;
+  height: 550vh;
   width: 100vw;
   color: #7d2222;
   margin-top: 0;
@@ -221,7 +221,7 @@ div:nth-child(even) {
   display: inline-block;
   background: #d2d2d2;
   color: #1d8883;
-  height: 130vh;
+  height: 150vh;
   width: 100vw;
 }
 #conta div {
@@ -239,7 +239,6 @@ div:nth-child(even) {
 #conta h1 {
   font-size: 7em;
   margin: 0;
-  /* margin-left: 1%; */
 }
 #conta ul {
   text-align: right;
