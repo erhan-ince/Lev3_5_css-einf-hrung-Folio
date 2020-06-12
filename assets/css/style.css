@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
+@font-face {
+  font-family: athene;
+  src: url(../fonts/Athene.otf);
+}
+
 html {
   scroll-behavior: smooth;
 }
 body {
   margin: 0;
   background: #efe8d7;
-}
-@font-face {
-  font-family: athene;
-  src: url(../fonts/Athene.otf);
 }
 nav {
   background: transparent;
@@ -241,7 +242,6 @@ div:nth-child(even) {
 }
 #conta li {
   display: inline-block;
-  text-align: right;
   width: 100px;
   list-style: none;
   margin-top: 5em;
@@ -249,7 +249,6 @@ div:nth-child(even) {
   line-height: 3em;
 }
 #conta a {
-  text-align: right;
   font-family: "Open Sans", sans-serif;
   font-size: 2em;
   color: #1d8883;
