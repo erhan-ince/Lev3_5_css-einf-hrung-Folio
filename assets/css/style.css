@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   background: #efe8d7;
@@ -12,7 +15,11 @@ nav {
   position: fixed;
   border-bottom: 1px solid black;
   width: 100vw;
-  height: 10vh;
+  height: 5vh;
+  padding-bottom: 1em;
+}
+nav ul {
+  list-style: none;
 }
 nav h5:first-of-type {
   color: #282b29;
@@ -29,22 +36,21 @@ nav h5:last-of-type {
   right: 100px;
 }
 #tmpfolio {
-  height: 120vh;
+  height: 150vh;
   text-align: center;
   color: #002a5a;
   font-family: athene;
 }
 #tmpfolio .temporary {
-  font-size: 5em;
+  font-size: 8em;
   font-weight: lighter;
   border-bottom: 1px solid;
-  padding-top: 0.5em;
   display: table;
   margin: 0 auto;
-  padding-top: 1.5em;
+  padding-top: 0.5em;
 }
 #tmpfolio .folio {
-  font-size: 5em;
+  font-size: 8em;
   font-weight: lighter;
   border-bottom: 1px solid;
   /* padding-top: 0; */
@@ -52,9 +58,7 @@ nav h5:last-of-type {
   margin: 0 auto;
 }
 .spanline {
-  font-size: 100px;
-  font-weight: lighter;
-  display: inline-block;
+  letter-spacing: -12px;
 }
 #tmpfolio div {
   text-align: center;
@@ -217,7 +221,7 @@ div:nth-child(even) {
   display: inline-block;
   background: #d2d2d2;
   color: #1d8883;
-  height: 120vh;
+  height: 130vh;
   width: 100vw;
 }
 #conta div {
