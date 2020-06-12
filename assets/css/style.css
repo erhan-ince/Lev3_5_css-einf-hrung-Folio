@@ -36,7 +36,7 @@ nav h5:last-of-type {
   right: 100px;
 }
 #tmpfolio {
-  height: 150vh;
+  height: 140vh;
   text-align: center;
   color: #002a5a;
   font-family: athene;
@@ -82,7 +82,7 @@ nav h5:last-of-type {
   font-family: athene;
   display: inline-block;
   background: #f4c4c4;
-  height: 180vh;
+  height: 210vh;
   width: 100vw;
   color: black;
   margin: 0;
