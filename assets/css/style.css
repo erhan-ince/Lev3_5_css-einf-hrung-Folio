@@ -161,7 +161,7 @@ tr td:last-of-type {
   font-family: athene;
   display: inline-block;
   background: #deb873;
-  height: 600vh;
+  height: 400vh;
   width: 100vw;
   color: #7d2222;
   margin-top: 0;
@@ -186,37 +186,37 @@ tr td:last-of-type {
   margin: 0;
 }
 div:nth-child(odd) {
-  font-size: 6em;
+  font-size: 4em;
   text-align: left;
   margin-left: 5%;
   margin-bottom: 15%;
 }
 div:nth-child(even) {
-  font-size: 6em;
+  font-size: 4em;
   text-align: right;
   margin-right: 5%;
   margin-bottom: 15%;
 }
 .imgrodrigo {
   background: url(../img/bg-marconatto-1.jpg) right/contain no-repeat;
-  height: 14%;
+  height: 10%;
   margin-right: 5%;
   margin-top: 10%;
 }
 .imgkaethe {
   background: url(../img/kathe_cover-1.jpg) left/contain no-repeat;
-  height: 14%;
+  height: 10%;
   margin-left: 5%;
 }
 .imgvictor {
   background: url(../img/bg-nicole-1.jpg) right/contain no-repeat;
-  height: 14%;
+  height: 10%;
   margin-right: 5%;
   margin-top: 10%;
 }
 .imgbored {
   background: url(../img/boa_cover-1.jpg) left/contain no-repeat;
-  height: 15%;
+  height: 10%;
   margin-left: 5%;
 }
 #conta {
@@ -228,7 +228,13 @@ div:nth-child(even) {
   height: 125vh;
   width: 100vw;
 }
-#conta p {
+.contap {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.lastp {
+  display: inline-block;
   font-family: "Open Sans", sans-serif;
   font-size: 2em;
   line-height: 1.5em;
