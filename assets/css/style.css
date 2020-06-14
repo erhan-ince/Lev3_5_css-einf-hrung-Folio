@@ -253,6 +253,7 @@ div:nth-child(even) {
   line-height: 3em;
 }
 #conta a {
+  text-align: right;
   font-family: "Open Sans", sans-serif;
   font-size: 2em;
   color: #1d8883;
