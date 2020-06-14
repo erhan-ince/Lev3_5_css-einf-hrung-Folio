@@ -22,22 +22,23 @@ nav {
 nav ul {
   list-style: none;
 }
-nav h5:first-of-type {
+nav a {
+  text-decoration: none;
   color: #282b29;
   font-weight: lighter;
+}
+nav h5:first-of-type {
   position: fixed;
   top: 5px;
   left: 100px;
 }
 nav h5:last-of-type {
-  color: #282b29;
-  font-weight: lighter;
   position: fixed;
   top: 5px;
   right: 100px;
 }
 #tmpfolio {
-  height: 140vh;
+  height: 200vh;
   text-align: center;
   color: #002a5a;
   font-family: athene;
@@ -63,15 +64,18 @@ nav h5:last-of-type {
 }
 #tmpfolio div {
   text-align: center;
+  height: 150vh;
 }
 #tmpfolio div img {
+  height: 80%;
+  width: auto;
   margin-top: 0.5em;
 }
 #tmpfolio div h4 {
   font-size: 0.25em;
   font-weight: bolder;
   text-align: center;
-  padding-right: 2em;
+  padding-right: 20em;
   margin: 0;
 }
 .developer {
